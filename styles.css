@@ -48,7 +48,6 @@ main {
     flex: 1;
     display: grid;
     grid-template-columns: repeat(2, 687px);
-    align-items: ;
 }
 
 .image {
