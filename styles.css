@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ESTO ES EL HEADER */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: blueviolet;
+    height: 230px;
+}
+
+.letra-grande,
+.texto {
+    background-color: aqua;
+    font-family: sans-serif;
+}
+
+.letra-grande {
+    font-size: 200px;
+}
+
+.texto {
+    margin-top: 40px;
+    max-width: 500px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+/* ESTE ES EL MAIN */
+
+main {
+    background-color: white;
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 687px);
+    align-items: ;
+}
+
+.image {
+    background-color: black;
+    width: 687px;
+}
+
+.container {
+    width: 687px;
+    margin: 10px auto;
+    font-family: sans-serif;
+    flex: 1;
+    border: 3px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.huge {
+    font-size: 190px;
+    font-weight: bold;
+}
+
+.pop-up {
+    position: fixed;
+    top: 40%;
+    right: 31%;
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    padding: 5px 30px;
+}
+
+.intro {
+    font-size: 0.9rem;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+input {
+    display: block;
+    margin: auto;
+    width: 85%;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid black;
+    margin: 15px auto;
+}
+
+.pregunta {
+    display: flex;
+    justify-content: end;
+    margin-right: 55px;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 0.9rem;
+}
+
+.boton {
+    background-color: black;
+    color: white;
+    padding: 10px 50px;
+    border-style: none;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+.redes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    background-color: black;
+    width: max-content;
+    margin: 30px auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.boton-redes {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+/* ESTE ES EL FOOTER */
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 100px;
+    background-color: chartreuse;
+}
+
+.copy {
+    margin-right: 440px;
+}
+
+.medio {
+    display: flex;
+    justify-content: center;
+}
